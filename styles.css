@@ -1,0 +1,59 @@
+body {
+    color: white;
+    background: rgb(241, 117, 138);
+    font-family: "Hind Siliguri", sans-serif;
+    margin-bottom: 100px;
+     }
+
+ header{
+    border-bottom: solid 1px yellow;
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(233, 47, 93);
+ }
+
+  section{
+
+    background: rgb(248, 202, 209);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+
+ }
+
+ .chamada-texto {
+      margin-right: 10%;
+      margin-left: 5% ;
+ }
+ h1{
+   font-size: 35px;
+ }
+ p{
+   font-size: 20px;
+ 
+ }
+
+ .categoria-videos{
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+ }
+section{
+  padding-left: 20px;
+  padding-right: 20px;
+
+ }
+
+ .categoria-videos img {
+opacity: 0.5;
+height: 200px;
+ }
+
+ .categoria-videos img:hover {
+opacity:1.5;
+border: 1px solid yellow;
+ }
+  .categoria h2{
+    color: yellow;
+  }
